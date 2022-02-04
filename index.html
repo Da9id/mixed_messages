@@ -10,9 +10,8 @@
         <header>
             <h1>Group Project: Mixed Messages</h1>
         </header>
-        <button onclick="generateMessage()" id="button">Press to get a new message.</button>
-        <footer id="random_message">
-
-        </footer>
+        <button onclick="location.reload();" id="button">Press to get a new message.</button>
+        <script>document.write(`<span id="random_message">${messageGenerator.generateMessage()}</span>`);</script>
+        
     </body>
 </html>

@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-
 body {
     text-align: center;
-    background-image: url(codecademy_bg.jpg);
+    background-image: url(./codecademy_bg.jpg);
     background-position: center;
 }
 h1 {
