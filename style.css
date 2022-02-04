@@ -1,26 +1,37 @@
 body {
     text-align: center;
-    background-image: url(./codecademy_bg.jpg);
+    background-image: url(codecademy_bg.jpg);
     background-position: center;
+    padding-bottom: 50px;
 }
 h1 {
-    color:rgb(20, 19, 49);
+    color: #03045e;
     font-size: 80px;
+    border-top: solid #c32530;
+    border-radius: 5px;
+    border-width: 10px;
 }
 button {
-    font-size: 40px;
-    color:darkviolet;
-    background-color: rgb(44, 31, 102);
+    font-size: 30px;
+    color: #023e8a;
+    background-color: #f8edeb;
     border-radius: 8px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 button:hover {
-    background-color: lightsalmon;
+    background-color: lightgrey;
 }
 #random_message {
     text-align: bottom;
 }
-footer {
-    height: 50px;
-    margin-top: -50px;
-}
+.message {
+    border-bottom: solid #c32530;
+    border-radius: 5px;
+    border-width: 10px;
+    color: #03045e;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    top: 400px;
+    position: relative;
+  }
