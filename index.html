@@ -1,4 +1,3 @@
-
 <!DOCTYPE html lang="eng">
     <head>
         <title>Group Project: Mixed Messages</title>
@@ -11,7 +10,8 @@
             <h1>Group Project: Mixed Messages</h1>
         </header>
         <button onclick="location.reload();" id="button">Press to get a new message.</button>
-        <script>document.write(`<span id="random_message">${messageGenerator.generateMessage()}</span>`);</script>
-        
+        <div class="message">
+            <script>document.write(`<span id="random_message">${messageGenerator.generateMessage()}</span>`);</script>
+        </div>
     </body>
 </html>
