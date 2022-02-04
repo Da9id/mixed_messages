@@ -1,0 +1,27 @@
+
+body {
+    text-align: center;
+    background-image: url(codecademy_bg.jpg);
+    background-position: center;
+}
+h1 {
+    color:rgb(20, 19, 49);
+    font-size: 80px;
+}
+button {
+    font-size: 40px;
+    color:darkviolet;
+    background-color: rgb(44, 31, 102);
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:hover {
+    background-color: lightsalmon;
+}
+#random_message {
+    text-align: bottom;
+}
+footer {
+    height: 50px;
+    margin-top: -50px;
+  }
