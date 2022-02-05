@@ -4,6 +4,7 @@ body {
     background-image: url(codecademy_bg.jpg);
 }
 h1 {
+    font-family: 'Roboto', sans-serif;
     color: #03045e;
     font-size: 80px;
     border-top: solid #c32530;
@@ -13,6 +14,7 @@ h1 {
 button {
     color: #03045e;
     font-size: 30px;
+    font-family: 'Noto Serif', serif;
     background-color: #f8edeb;
     border-radius: 8px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -26,7 +28,7 @@ button:hover {
 #random_message {
     font-size: 40px;
     color: #023e8a;
-    font-weight: bold;
+    font-family: 'Quintessential', cursive;
     position: absolute;
     left: 50%;
     top: 60%;
