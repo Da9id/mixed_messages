@@ -1,8 +1,7 @@
 body {
     text-align: center;
-    background-image: url(codecademy_bg.jpg);
-    background-position: center;
     padding-bottom: 50px;
+    background-image: url(codecademy_bg.jpg);
 }
 h1 {
     color: #03045e;
@@ -17,6 +16,11 @@ button {
     background-color: #f8edeb;
     border-radius: 8px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
 }
 button:hover {
     background-color: lightgrey;
