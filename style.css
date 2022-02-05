@@ -11,31 +11,32 @@ h1 {
     border-width: 10px;
 }
 button {
+    color: #03045e;
     font-size: 30px;
-    color: #023e8a;
     background-color: #f8edeb;
     border-radius: 8px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
+    bottom: 10px;
+    left: 37%;
 }
 button:hover {
     background-color: lightgrey;
 }
 #random_message {
-    text-align: bottom;
+    font-size: 40px;
+    color: #023e8a;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -60%);
+    padding: 10px;
 }
 .message {
     border-bottom: solid #c32530;
     border-radius: 5px;
     border-width: 10px;
-    color: #03045e;
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-    top: 400px;
+    top: 500px;
     position: relative;
   }
