@@ -17,7 +17,7 @@ const messageGenerator = {
         "dullest", "darkest",
         "fastest", "fiercest",
         "greatest", "gifted",
-        "hottest", "honest",
+        "hottest", "most honest",
     ],
     _commonNounsList: [
         "planet", "mountain",

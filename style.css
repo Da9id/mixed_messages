@@ -2,43 +2,47 @@ body {
     text-align: center;
     padding-bottom: 50px;
     background-image: url(codecademy_bg.jpg);
+    background-repeat: no-repeat;
 }
 h1 {
-    font-family: 'Roboto', sans-serif;
-    color: #03045e;
+    font-family: 'Arimo', sans-serif;
+    color: #242424;
     font-size: 80px;
-    border-top: solid #c32530;
+    border-top: solid #373737;
     border-radius: 5px;
     border-width: 10px;
 }
 button {
     color: #03045e;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Noto Serif', serif;
     background-color: #f8edeb;
     border-radius: 8px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    position: absolute;
-    bottom: 10px;
-    left: 37%;
+    position: center;
+    /* bottom: 10px;
+    left: 37%; */
 }
 button:hover {
     background-color: lightgrey;
 }
+
+.message {
+    color: #6A605C;
+    font-family: 'Berkshire Swash', cursive;
+    position: relative;
+    margin: 200px auto 50px auto;
+}
 #random_message {
     font-size: 40px;
-    color: #023e8a;
-    font-family: 'Quintessential', cursive;
-    position: absolute;
-    left: 50%;
-    top: 60%;
-    transform: translate(-50%, -60%);
-    padding: 10px;
+    color: #6A605C;
+    font-family: 'Berkshire Swash', cursive;
+    position: center;
+    /* transform: translate(-50%, -60%); */
 }
-.message {
-    border-bottom: solid #c32530;
+.bottom-border {
+    border-bottom: solid #373737;
     border-radius: 5px;
     border-width: 10px;
-    top: 500px;
-    position: relative;
-  }
+    margin: 20px;
+}

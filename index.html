@@ -6,16 +6,17 @@
         <link href="style.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <h1>Group Project: Mixed Messages</h1>
+            <h1>Mixed Messages</h1>
         </header>
         <div class="message">
-        <button onclick="location.reload();" id="button">Press to get a new message.</button>
+            <script>document.write(`<span id="random_message">"${messageGenerator.generateMessage()}"</span>`);</script>
         </div>
-            <script>document.write(`<span id="random_message">${messageGenerator.generateMessage()}</span>`);</script>
-        
+        <button onclick="location.reload();" id="button">Generate a message</button>
+        <div class="bottom-border"></div>
     </body>
 </html>
